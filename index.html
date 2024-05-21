@@ -6,21 +6,21 @@
   <title>Página de Exemplo</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="w-[90vw] ml-[60px]">
   <header class="bg-[#001e3c] py-4 px-8 flex items-center justify-between">
-    <div class="flex gap-32 items-center space-x-4">
-        <img src="./imagens/fjnSemRemover.png" class="rounded-lg h-28 w-28" alt="">
+    <div class="flex items-center space-x-4">
+        <img src="./imagens/fjnSemRemover.png" class="mr-8 rounded-lg h-20 w-20" alt="">
       <button class="px-4 py-2 bg-blue-500 text-white rounded-md border border-white">Home</button>
       <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Graduações</button>
       <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Pós-Graduações</button>
       <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Institucional</button>
       <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Fale Conosco</button>
     </div>
-    <div class="flex items-center space-x-4 bg-blue-500 px-4 py-2 rounded-md">
+    <div class="h-9 flex items-center space-x-4 bg-blue-500 px-4 py-2 rounded-md">
       <div class="border-r border-white pr-4">
-        <button class="px-4 py-2 text-white hover:border-white rounded-md">Biblioteca Virtual</button>
+        <button class="px-4 py-2 text-white hover:border-white rounded-md text-sm ">Biblioteca Virtual</button>
       </div>
-      <button class="px-4 py-2 text-white hover:border-white rounded-md">Confira suas Notas</button>
+      <button class="px-4 py-2 text-white hover:border-white rounded-md text-sm">Confira suas Notas</button>
     </div>
   </header>
 
@@ -63,13 +63,9 @@
       </div>
     </div>
     <div class="flex items-center justify-between flex-1 mx-8">
-      <div class=" items-center">
-        <img src="./imagens/clock-regular.svg" alt="Clock" class="w-32 h-32 mr-2 ml-20 mb-3">
-        <span class="text-[#001e3c] font-bold ">FALTAM 52 DIAS PARA O VESTIBULAR</span>
-      </div>
-      <div class="flex">
-        <span class="text-[#001e3c] font-bold text-2xl">2023.2</span>
-        <button class="bg-[#001e3c] text-white rounded-full px-4 py-2 ml-4">Tenha mais informações</button>
+      <div class="w-[10vw] items-center">
+        <img src="./imagens/clock-regular.svg" alt="Clock" class="w-32 h-32 mr-2 ml-52 mb-3">
+        <span class="text-[#001e3c] font-bold text-sm p-4">FALTAM 52 DIAS PARA O VESTIBULAR<span class="font-bold text-2xl ml-[230px]">2023.2<span><button class="bg-[#001e3c] text-white rounded-full py-2  text-sm w-48 ml-44">Tenha mais informações</button></span></span></span>
       </div>
     </div>
   </div>
@@ -87,15 +83,13 @@
         <div class="">
             <div class="flex">
                 <img src="./imagens/reuniao.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
-                <p class="text-[#001e3c]">Faculdade se reune com MEC para abrir o curso de arquitetura</p>
-                <p class="text-[#001e3c] font-bold mt-5">22.07.2013</p>
+                <p class="text-[#001e3c]">Faculdade se reune com MEC para abrir o curso de arquitetura <br> <span class="font-bold">22.07.2013</span></p>
             </div>
             <br>
             <div class="flex">
                 <img src="./imagens/alunos.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
                 <br>
-                <p class="text-[#001e3c]">Alunos de enfermagem visitam a nova sede da Secretária de Saúde</p>
-                <p class="text-[#001e3c] font-bold">17.03.2013</p>
+                <p class="text-[#001e3c]">Alunos de enfermagem visitam a nova sede da Secretária de Saúde <br> <span class="font-bold"><span class="font-bold">17.03.2013</span>
             </div>
         </div>
 
@@ -103,21 +97,23 @@
             <div class="flex">
                 <img src="./imagens/reuniao.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
                 <br>
-                <p class="text-[#001e3c]">Faculdade se reune com MEC para abrir o curso de arquitetura</p>
-                <p class="text-[#001e3c] font-bold">22.07.2013</p>
+                <p class="text-[#001e3c]">Faculdade se reune com MEC para abrir o curso de arquitetura <br> <span class="font-bold">22.07.2013</span></p>
             </div>
             <br>
             <div class="flex">
                 <img src="./imagens/alunos.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
-                <p class="text-[#001e3c]">Alunos de enfermagem visitam a nova sede da Secretária de Saúde</p>
-                <p class="text-[#001e3c] font-bold">17.03.2013</p>
+                <p class="text-[#001e3c]">Alunos de enfermagem visitam a nova sede da Secretária de Saúde <br> <span class="font-bold"><span class="font-bold">17.03.2013</span></p>
             </div>
         </div>
     </div>
     <br>
         <div class="">
-            <button class="bg-[#001e3c] text-white rounded-full px-4 py-2 ml-[45vw] mt-9">Veja mais notícias</button>
+            <button class="bg-[#001e3c] text-white rounded-full px-4 py-2 ml-[40vw] mt-9">Veja mais notícias</button>
         </div>
 </div>
+
+<footer class="bg-black text-white text-center p-4">
+  Desenvolvido por Antônio Lisarb e Karyna Rodrigues <br> ©2024
+</footer>
 </body>
 </html>
