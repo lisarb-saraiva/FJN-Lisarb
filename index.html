@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Exemplo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header class="bg-[#001e3c] py-4 px-8 flex items-center justify-between">
+    <div class="flex gap-32 items-center space-x-4">
+        <img src="./imagens/fjnSemRemover.png" class="rounded-lg h-28 w-28" alt="">
+      <button class="px-4 py-2 bg-blue-500 text-white rounded-md border border-white">Home</button>
+      <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Graduações</button>
+      <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Pós-Graduações</button>
+      <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Institucional</button>
+      <button class="px-4 py-2 text-white hover:bg-blue-500 hover:border-white rounded-md">Fale Conosco</button>
+    </div>
+    <div class="flex items-center space-x-4 bg-blue-500 px-4 py-2 rounded-md">
+      <div class="border-r border-white pr-4">
+        <button class="px-4 py-2 text-white hover:border-white rounded-md">Biblioteca Virtual</button>
+      </div>
+      <button class="px-4 py-2 text-white hover:border-white rounded-md">Confira suas Notas</button>
+    </div>
+  </header>
+
+  <div class="mt-8 mx-8 flex justify-between items-center">
+    <div class="flex items-center">
+      <span class="text-blue-300 mr-2">Você está em:</span>
+      <span class="text-blue-500 font-bold">Página Inicial</span>
+    </div>
+    <div class="bg-gray-200 rounded-full px-4 py-2 flex items-center">
+      <input type="text" class="bg-transparent focus:outline-none mr-2" placeholder="Pesquisar">
+      <button class="focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="flex bg-gray-300 mt-8">
+    <div class="flex-1 relative">
+      <img src="./imagens/john.jpg" alt="" class="w-full h-96">
+      <div class="absolute bottom-0 right-0 flex items-center space-x-4 p-4">
+        <button class="bg-[#001e3c] text-white rounded-full p-2">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="currentColor" />
+          </svg>
+        </button>
+        <button class="bg-[#001e3c] text-white rounded-full p-2">
+          <svg class="h-5 w-5" viewBox="0 0 20 24" viewBox="0 0 24 24" width="24" height="24">
+            <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" fill="currentColor" />
+          </svg>
+        </button>
+      </div>
+      <div class="top-1 absolute bottom-0 left-0 w-full p-8">
+        <div class="mt-4 text-white font-bold text-3xl">
+          Wisdom & humility in <span class="text-yellow-500 flex text-5xl">LEADERSHIP</span>
+        </div>
+        <div class="border-t border-b border-white py-2 mt-4 text-white font-bold w-96">GEN. JOHN ASHCROFT</div>
+        <div class="text-white">Former U.S. Attorney General Distinguished professor</div>
+      </div>
+    </div>
+    <div class="flex items-center justify-between flex-1 mx-8">
+      <div class=" items-center">
+        <img src="./imagens/clock-regular.svg" alt="Clock" class="w-32 h-32 mr-2 ml-20 mb-3">
+        <span class="text-[#001e3c] font-bold ">FALTAM 52 DIAS PARA O VESTIBULAR</span>
+      </div>
+      <div class="flex">
+        <span class="text-[#001e3c] font-bold text-2xl">2023.2</span>
+        <button class="bg-[#001e3c] text-white rounded-full px-4 py-2 ml-4">Tenha mais informações</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-8 border-t border-white bg-gray-300 py-8">
+    <div class="flex justify-between items-center mx-8">
+        <button class="text-[#001e3c] font-bold">ÚLTIMAS NOTÍCIAS
+        </div>
+            <div class="border-b border-blue-500 border-b-blue-300 border-b-white">
+
+            </div>
+        </button>
+
+    <div class="mt-2 ml-9 flex gap-48">
+        <div class="">
+            <div class="flex">
+                <img src="./imagens/reuniao.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
+                <p class="text-[#001e3c]">Faculdade se reune com MEC para abrir o curso de arquitetura</p>
+                <p class="text-[#001e3c] font-bold mt-5">22.07.2013</p>
+            </div>
+            <br>
+            <div class="flex">
+                <img src="./imagens/alunos.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
+                <br>
+                <p class="text-[#001e3c]">Alunos de enfermagem visitam a nova sede da Secretária de Saúde</p>
+                <p class="text-[#001e3c] font-bold">17.03.2013</p>
+            </div>
+        </div>
+
+        <div class="">
+            <div class="flex">
+                <img src="./imagens/reuniao.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
+                <br>
+                <p class="text-[#001e3c]">Faculdade se reune com MEC para abrir o curso de arquitetura</p>
+                <p class="text-[#001e3c] font-bold">22.07.2013</p>
+            </div>
+            <br>
+            <div class="flex">
+                <img src="./imagens/alunos.jpeg" class="rounded-full w-32 h-32 mr-4" alt="">
+                <p class="text-[#001e3c]">Alunos de enfermagem visitam a nova sede da Secretária de Saúde</p>
+                <p class="text-[#001e3c] font-bold">17.03.2013</p>
+            </div>
+        </div>
+    </div>
+    <br>
+        <div class="">
+            <button class="bg-[#001e3c] text-white rounded-full px-4 py-2 ml-[45vw] mt-9">Veja mais notícias</button>
+        </div>
+</div>
+</body>
+</html>
